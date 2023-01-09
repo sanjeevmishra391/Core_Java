@@ -28,3 +28,5 @@ It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a 
 JRE stands for “Java Runtime Environment”. It provides the minimum requirements for executing a Java application; it consists of the Java Virtual Machine (JVM), core classes, and supporting files.
 
 JVM is responsible for executing the java program line by line, hence it is also known as an interpreter.
+![image](https://user-images.githubusercontent.com/56467938/211314614-bec45e86-532d-4139-abc8-9fcd3e2230b1.png)
+
