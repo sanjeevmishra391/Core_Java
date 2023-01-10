@@ -10,7 +10,7 @@ Java The Complete Reference, Eighth Edition
 
 ## About Java:
 
-- simple, high level, robust, object-oriented, multithreaded and secure programming language.
+- simple, high level, robust, object-oriented, multithreaded, platform independent and secure programming language.
 - was developed by Sun Microsystems, now owned by Oracle.
 - James Gosling is known as the father of Java.
 
@@ -30,3 +30,15 @@ JRE stands for “Java Runtime Environment”. It provides the minimum requireme
 JVM is responsible for executing the java program line by line, hence it is also known as an interpreter.
 ![image](https://user-images.githubusercontent.com/56467938/211314614-bec45e86-532d-4139-abc8-9fcd3e2230b1.png)
 
+## Important Notes:
+
+- Java is case sensitive
+- Java execution starts with main() method.
+- main() method should have signature as `public static void main(String args[])`
+-
+
+## Run Java program using ternminal
+
+1. Locate the file and make sure you are in the same folder in which file is located.
+2. Run `javac File.java`. This will compile and create the bytecode of the program (.class)
+3. After compiling the program, run `java File` command.

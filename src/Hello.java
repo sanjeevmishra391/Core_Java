@@ -3,3 +3,29 @@ public class Hello {
 		System.out.println("Hello World");
 	}
 }
+
+// keywords -> reserved words, special meaning
+// operators
+// variables
+// data types
+// arrays
+// loop
+// selection if, else, switch
+// functions
+// objects
+// access specifier
+// static
+// void - return type
+// OOPs - Class, Objects, Inheritence, Abstraction, Encapsulation, Polymorphism
+// strings
+// packages
+// interfaces and abstract classes
+// exception handling
+// file handling
+// collection framework
+// multithread
+// generics
+
+// compilation is done using javac command
+// this create .class file
+// to run it use java command
