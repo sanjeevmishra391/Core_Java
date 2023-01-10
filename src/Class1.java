@@ -138,6 +138,6 @@ public class Class1 {
         months[0] = 31;
         months[1] = 28;
 
-        System.out.println("Data at 1st index(2nd location): " + months[1]);
+        System.out.println("Data at 1st index(2nd location) of array: " + months[1]);
     }
 }
