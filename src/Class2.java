@@ -1,4 +1,4 @@
-// arrays and operators.
+// arrays, string(intro) and operators.
 
 public class Class2 {
     public static void main(String[] args) {
@@ -24,6 +24,9 @@ public class Class2 {
         int_arr[1] = 10;
         System.out.println(int_arr[0]);
         System.out.println(int_arr[1]);
+
+        // size of the array
+        System.out.println("Size of the array : " + int_arr.length);
 
         // array initialization
         int months[] = { 31, 28, 31, 30, 31, 30 };
@@ -57,6 +60,39 @@ public class Class2 {
         int two_dimensional_initialized[][] = { { 1, 2 }, { 3, 4 } };
         System.out.println(two_dimensional_initialized[0][1]);
 
+        // another way of array creation
+        int two_dim[][] = new int[3][];
+        two_dim[0] = new int[5];
+        two_dim[1] = new int[5];
+        two_dim[2] = new int[5];
+        // above declaration is equivalent to : int two_dim2[][] = new int[3][5];
+
+        System.out.println("Number of Rows of two dimensional array: " + two_dim.length);
+        System.out.println("Number of Cols of two dimensional array: " + two_dim[0].length);
+
+        // String: are not primitive, nor it is char array
+        // are objects
+        String firstName = "Sanjeev";
+        String lastName = "Mishra";
+        String fullName = firstName + " " + lastName + 5;
+        System.out.println(fullName);
+        // char ch = 'A';
+
+        // ------------- operators ---------------
+
+        /*
+         * Arithematic operators: +(addition), -(subtraction), *(multiplication),
+         * /(division), %(modulus, remainder)
+         */
+
+        int a = 8;
+        int b = 2;
+        int c = 3;
+        int result = a / c; // 2;
+        float result_float_1 = (float) a / c; // 2.66667, a is converted to float.
+        float result_float_2 = (float) (a / c); // 2.0
+        System.out.println(a / b); // 4
+        System.out.println(result + " " + result_float_1 + " " + result_float_2);
     }
 
 }
