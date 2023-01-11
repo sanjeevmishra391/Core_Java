@@ -1,4 +1,4 @@
-// data types, variables, type conversion and arrays.
+// data types, variables, escape sequence, type conversion and arrays.
 
 public class Class1 {
     public static void main(String[] args) {
