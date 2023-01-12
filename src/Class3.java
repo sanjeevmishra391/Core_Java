@@ -143,5 +143,57 @@ public class Class3 {
         String ternary2 = (num >= 0) ? "positive" : "negative";
         System.out.println("Ternary result2: " + ternary2);
 
+        /*
+         * Assignment operator:
+         * +=, -=, *=, /=, %=, &=, ^=, |=, >>=, <<=
+         */
+
+        int m = 6;
+        m += 5; // m = m + 5;
+        System.out.println("Assignment addtion: " + m);
+
+        m %= 2; // m = m % 2;
+        System.out.println("Assignment modulus: " + m);
+
+        // ------------- Practice ----------------------
+        // 1.
+        int x = 0, y = 0, z = 0;
+        x = (++x + y--) * y; // (1 + 0) * -1 = -1
+        // prefix: change the value and then use it
+        // postfix: use the value and then change it
+        System.out.println(x); // -1
+        System.out.println("Y: " + y); // -1
+
+        // 2.
+        x = 4;
+        y = --x; // 3
+        z = x--; // 3
+        // x = 2;
+        System.out.println("X: " + x);
+        System.out.println("Y: " + y);
+        System.out.println("Z: " + z);
+
+        // 3.
+        x = 1;
+        y = 3;
+        y = x++ + x++ + x++ + x++; // y = 1 + 2 + 3 + 4 = 10, x= 5
+        // y = 1 + 2 + 3 + 4
+        System.out.println("3. X: " + x); // 5
+        System.out.println("3. Y: " + y); // 10
+
+        // 4.
+        x = 9;
+        y = 9;
+        x = y++; // x = 9, y = 10
+        System.out.println("4. x = " + x + ", y = " + y);
+        y = x++; // x = 10, y = 9
+        System.out.println("4. x = " + x + ", y = " + y);
+        y = ++y; // x = 10, y = 10;
+        System.out.println("4. x = " + x + ", y = " + y);
+
+        int arr[] = new int[10];
+        arr[1] = 5;
+        System.out.println(arr); // class name @ hashcode of the class data (garbage string)
+
     }
 }

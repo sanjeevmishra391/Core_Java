@@ -11,7 +11,12 @@ public class Class2 {
         // data_type array_name[] = new data_type[size_of_array];
         // size_of_array should be positive;
         int int_arr[] = new int[5]; // size(int) = 4 bytes, size of array = 4 * 5 = 20 bytes
+        int[] arr = new int[5];
 
+        int[] x, y, z;
+        x = new int[8];
+        y = new int[9];
+        z = new int[10];
         // indexing: is the location of data in array.
         // index should be in the range [0, size_of_array-1]
         // System.out.println(int_arr[-1]); !Error
@@ -75,7 +80,7 @@ public class Class2 {
         String firstName = "Sanjeev";
         String lastName = "Mishra";
         String fullName = firstName + " " + lastName + 5;
-        System.out.println(fullName);
+        System.out.println(fullName); // Sanjeev Mishra5
         // char ch = 'A';
 
         // ------------- operators ---------------
