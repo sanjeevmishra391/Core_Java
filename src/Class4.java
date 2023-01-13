@@ -151,6 +151,69 @@ public class Class4 {
             System.out.println("value of i = " + i);
         }
 
+        // while loop
+        // while(condition) {
+        // statements
+        // }
+
+        int count = 0;
+        while (count < 10) {
+            System.out.println("value of count  = " + count);
+            count++;
+        }
+
+        // do while loop: runs the statements and then check the condition
+        int count2 = 10;
+        do {
+            System.out.println("Count2 = " + count2);
+            count2 += 2;
+        } while (count2 < 10);
+
+        // find the sum of the elements of array;
+        int arr[] = { 2, 5, 10, 8, 6 };
+        int sum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+        // sum = 0, i=0, sum = 0 + 2 = 2;
+        // sum = 2, i=1, sum = 2 + 5 = 7;
+        // sum = 7, i=2, sum = 7 + 10 = 17;
+        // sum = 17, i=3, sum = 17 + 8 = 25;
+        // sum = 25, i=4, sum = 25 + 6 = 31;
+        int idx = 0, mul = 1;
+
+        while (idx < arr.length) {
+            mul = mul * arr[idx];
+            idx++;
+        }
+
+        System.out.println("Sum of the array = " + sum);
+        System.out.println("Multiplication of the array = " + mul);
+
+        for (int i = 0, j = 1; i < 5; i++, j = j * 2) {
+            System.out.println("i = " + i + " j = " + j);
+        }
+
+        int two_dimensional_initialized[][] = { { 1, 2, 3 }, { 4, 5, 6 } }; //
+        // 1 2 3
+        // 4 5 6
+        int rows = two_dimensional_initialized.length; // 2
+        int cols = two_dimensional_initialized[0].length; // 3
+        // outer loop
+        for (int i = 0; i < rows; i++) { // 2
+            // inner loop
+            for (int j = 0; j < cols; j++) { // 3 * 2 = 6
+                System.out.print(two_dimensional_initialized[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        // i=0 -> enter outer loop:
+        // j=3 : 1 2 3
+        // i=1 ->
+        // j=3 : 4 5 6
+
         System.out.println("End of the code");
     }
 }
