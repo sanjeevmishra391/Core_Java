@@ -3,6 +3,7 @@
 public class Class5 {
     public static void main(String[] args) {
         // nested loop
+
         // Pattern 1
         // * i=0
         // * * i=1
@@ -18,24 +19,24 @@ public class Class5 {
             System.out.println();
         }
 
-        // // Pattern 2
-        // // * * * * *
-        // // * * * *
-        // // * * *
-        // // * *
-        // // *
+        // Pattern 2
+        // * * * * *
+        // * * * *
+        // * * *
+        // * *
+        // *
 
-        // // while loop -> n=5,
-        // // int n = 5, i = 5;
-        // // while (i > 0 && i <= n) {
-        // // int j = 0;
-        // // while (j < i) {
-        // // System.out.print("* ");
-        // // j++;
-        // // }
-        // // i--;
-        // // System.out.println();
-        // // }
+        // while loop -> n=5,
+        // int n = 5, i = 5;
+        // while (i > 0 && i <= n) {
+        // int j = 0;
+        // while (j < i) {
+        // System.out.print("* ");
+        // j++;
+        // }
+        // i--;
+        // System.out.println();
+        // }
 
         for (int i = 0; i < 5; i++) {
             for (int j = 5; j > i; j--) {
@@ -44,12 +45,12 @@ public class Class5 {
             System.out.println();
         }
 
-        // // Pattern 3
-        // // _ _ _ _ *
-        // // _ _ _ * *
-        // // _ _ * * *
-        // // _ * * * *
-        // // * * * * *
+        // Pattern 3
+        // _ _ _ _ *
+        // _ _ _ * *
+        // _ _ * * *
+        // _ * * * *
+        // * * * * *
 
         int rows = 10;
 
@@ -58,6 +59,7 @@ public class Class5 {
             // i=0, j=[0, 3]
             // i=1, j=[1, 3]
             // i=2, j=[2, 3]
+            // i=3, j=[3, 3]
 
             for (int j = i; j < rows - 1; j++) {
                 System.out.print("_ ");
