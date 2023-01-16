@@ -1,0 +1,9 @@
+Version Control System: 
+Benefits:
+    1. Simplify code review
+    2. Modify code efficiently
+    3. Revert changes that introduce bugs
+    4. Maintain multiple versions
+    5. Better collaboration and improves team productivity
+
+Git: it is a distributed version control framework.
