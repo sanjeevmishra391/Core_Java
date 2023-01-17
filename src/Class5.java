@@ -72,6 +72,32 @@ public class Class5 {
             System.out.println();
         }
 
+        // n=4
+        // [i to i+3]
+        // i+1 _ _ i+1
+        // [i+2 to i+5]
+        // 1 2 3 4
+        // 2 _ _ 2
+        // 3 4 5 6
+        // 4 _ _ 4
+        int n = 6;
+        int count = 1;
+        for (int i = 1; i <= (n / 2); i++) {
+            for (int j = count; j < (count + n); j++) {
+                System.out.print(j + "");
+            }
+            System.out.println();
+
+            System.out.print(2 * i);
+            for (int k = 0; k < n - 2; k++) {
+                System.out.print(" ");
+            }
+            System.out.print(2 * i);
+
+            System.out.println();
+            count = count + 2;
+        }
+
         // ------------ Enhanced for loop ---------------
         int arr[] = { 2, 6, 4, 9, 10, 5 };
 
