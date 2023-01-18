@@ -33,7 +33,9 @@ class Box {
     // sin(30) = 1/2
     int getVolume() {
         int volume = length * width * height;
-        return volume; // used to return some data as output from the function
+        return volume; // used to return some data as output from the function and should be the last
+                       // statement of the method
+
     }
 
     int getArea() {
