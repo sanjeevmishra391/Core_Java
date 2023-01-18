@@ -78,6 +78,8 @@ class Class6 {
         System.out.println("Result1 = " + result1);
         System.out.println("Result2 = " + result2);
 
+        myBox2 = null;
+
         Box myBox3 = new Box("MyBox", 5, 8, 11);
         // myBox3.length = 5;
         // myBox3.width = 8;
