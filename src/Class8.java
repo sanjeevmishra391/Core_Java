@@ -1,4 +1,4 @@
-// method overloading, contructor overloading, objects as parameters
+// method overloading, contructor overloading, objects as parameters and return 
 
 /*
  * Method overloading : In the same class, multiple methods can share the same name,
@@ -12,6 +12,15 @@
  */
 
 // Every object has a data type and it is it's own class.
+
+/*
+ * There are two ways of passing arguments:
+ * 1. call by value: a copy is created and changes to copy does not affect original data. all the primitive data types
+ * 2. call by reference: a reference to the data is send. 
+ * and changes made using reference affect original data. Objects and arrays
+ */
+
+// you can also return objects from functions
 
 class OverloadClass {
 
@@ -71,6 +80,8 @@ class OverloadClass {
     void test(int x) {
         System.out.print("In the test method 2, with parameters: ");
         System.out.println("x = " + x);
+        x = x + 2;
+        System.out.println("modified x = " + x);
     }
 
     // method 3
@@ -130,7 +141,44 @@ class OverloadClass {
         }
 
         return false;
+    }
 
+    void callByReference(OverloadClass obj) {
+        System.out.println("Data of object as parameter: ");
+        System.out.println(obj.length);
+        System.out.println(obj.width);
+        System.out.println(obj.height);
+
+        obj.length = obj.length * 2;
+        obj.width *= 2;
+        obj.height *= 2;
+
+        System.out.println("Data of object as parameter after modification: ");
+        System.out.println(obj.length);
+        System.out.println(obj.width);
+        System.out.println(obj.height);
+    }
+
+    OverloadClass objectReturnFunction(int a) {
+        OverloadClass newObj = new OverloadClass(a);
+
+        return newObj;
+    }
+
+    // 1. create one method which receives an object as parameter
+    // 2. inside the method create a new object with triple times the data
+    // 3. return this new object
+    OverloadClass createNewObjectTriple(OverloadClass objectTriple) {
+
+        // OverloadClass myObj = new OverloadClass();
+        // myObj.length = 3 * objectTriple.length;
+        // myObj.width = 3 * objectTriple.width;
+        // myObj.height = 3 * objectTriple.height;
+
+        OverloadClass myObj = new OverloadClass(3 * objectTriple.length, 3 * objectTriple.width,
+                3 * objectTriple.height);
+
+        return myObj;
     }
 
 }
@@ -145,6 +193,10 @@ class Class8 {
         overloadClassObj.test(); // method 1
         int a = 64;
         overloadClassObj.test(a); // method 2
+        // a is passed as call by value.
+        // in call by value a copy is created.
+        // and any changes to the copy is not reflected to original data
+        System.out.println("a = " + a);
         overloadClassObj.test(23, 79); // method 3
         overloadClassObj.test(55.1); // method 4
         // int result = overloadClassObj.test(22); error
@@ -187,6 +239,27 @@ class Class8 {
 
         OverloadClass overloadClassObj5 = new OverloadClass(overloadClassObj2); // constructor 5
         System.out.println(overloadClassObj5.volume());
+
+        System.out.println();
+
+        overloadClassObj.callByReference(overloadClassObj4);
+
+        System.out.println("Data of object outside function: ");
+        System.out.println(overloadClassObj4.length); // 20
+        System.out.println(overloadClassObj4.width); // 24
+        System.out.println(overloadClassObj4.height); // 28
+
+        System.out.println();
+
+        OverloadClass returnedObj = overloadClassObj.objectReturnFunction(15);
+        System.out.println(returnedObj.length);
+
+        System.out.println();
+
+        OverloadClass tripleReturnedObj = overloadClassObj.createNewObjectTriple(overloadClassObj4);
+        System.out.println(tripleReturnedObj.length); // 60
+        System.out.println(tripleReturnedObj.width); // 72
+        System.out.println(tripleReturnedObj.height); // 84
 
     }
 }
