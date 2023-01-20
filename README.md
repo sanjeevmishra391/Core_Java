@@ -42,3 +42,7 @@ JVM is responsible for executing the java program line by line, hence it is also
 1. Locate the file and make sure you are in the same folder in which file is located.
 2. Run `javac File.java`. This will compile and create the bytecode of the program (.class)
 3. After compiling the program, run `java File` command.
+
+## Recursion
+
+https://www.edureka.co/blog/wp-content/uploads/2019/08/2019-08-06-12_31_29-Window.png
