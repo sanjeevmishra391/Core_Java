@@ -9,8 +9,8 @@
 class Stack {
     // instance variable
     // int stack[] = new int[10];
-    int stackArr[]; // declaration
-    int top;
+    private int stackArr[]; // declaration
+    private int top;
 
     Stack(int size) {
         top = -1;
