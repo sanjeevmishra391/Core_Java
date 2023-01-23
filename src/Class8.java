@@ -1,4 +1,4 @@
-// method overloading, contructor overloading, objects as parameters and return 
+// method overloading, contructor overloading, objects as parameters and result
 
 /*
  * Method overloading : In the same class, multiple methods can share the same name,
