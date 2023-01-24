@@ -46,3 +46,5 @@ JVM is responsible for executing the java program line by line, hence it is also
 ## Recursion
 
 https://www.edureka.co/blog/wp-content/uploads/2019/08/2019-08-06-12_31_29-Window.png
+
+https://dotnettrickscloud.blob.core.windows.net/img/oops/types-of-inheritance-c-sharp.png
