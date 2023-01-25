@@ -1,4 +1,3 @@
-
 // private members can only be accessed in the same class but not outside, not even subclasses.
 
 class A {

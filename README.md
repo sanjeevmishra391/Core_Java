@@ -35,6 +35,7 @@ JVM is responsible for executing the java program line by line, hence it is also
 - Java is case sensitive
 - Java execution starts with main() method.
 - main() method should have signature as `public static void main(String args[])`
+- A method is overridden, not the data members, so runtime polymorphism can't be achieved by data members.
 - Precedence Table: https://www.programiz.com/java-programming/operator-precedence#:~:text=Associativity%20of%20Operators%20in%20Java,is%20assigned%20to%20variable%20b%20
 
 ## Run Java program using ternminal
