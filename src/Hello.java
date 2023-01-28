@@ -11,12 +11,13 @@ public class Hello {
 // arrays
 // loop
 // selection if, else, switch
-// functions
+// functions, recursion
 // objects
 // access specifier
 // static
 // void - return type
 // OOPs - Class, Objects, Inheritence, Abstraction, Encapsulation, Polymorphism
+// method overloading, method overriding
 // strings
 // packages
 // interfaces and abstract classes

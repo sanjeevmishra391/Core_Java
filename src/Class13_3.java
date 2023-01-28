@@ -6,6 +6,7 @@
 // 4. Abstract class can contain non-abstract methods as well.
 // 5. Any class that inherits abstract class needs to either provide body of all abstract methods 
 //    or make the class as abstract.
+// 6. Abstract class can have constructor, static methods and final methods
 
 abstract class A {
     abstract void callMe();

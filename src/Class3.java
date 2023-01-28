@@ -1,5 +1,8 @@
 // operators and practice questions
 
+// prefix: change the value and then use it
+// postfix: use the value and then change it
+
 public class Class3 {
     public static void main(String[] args) {
         // ------------- operators ---------------
