@@ -36,3 +36,6 @@ public class Class15 {
         System.out.println("2^10 = " + p);
     }
 }
+
+// Write a program to take input from user.
+// Take a number as input from user and check if it is prime or not.
