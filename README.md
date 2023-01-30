@@ -36,6 +36,8 @@ JVM is responsible for executing the java program line by line, hence it is also
 - Java execution starts with main() method.
 - main() method should have signature as `public static void main(String args[])`
 - A method is overridden, not the data members, so runtime polymorphism can't be achieved by data members.
+- You can not use super keyword in the static method/block.
+- this() can be used to invoke current class constructor.
 - Precedence Table: https://www.programiz.com/java-programming/operator-precedence#:~:text=Associativity%20of%20Operators%20in%20Java,is%20assigned%20to%20variable%20b%20
 
 ## Run Java program using ternminal
@@ -49,3 +51,7 @@ JVM is responsible for executing the java program line by line, hence it is also
 https://www.edureka.co/blog/wp-content/uploads/2019/08/2019-08-06-12_31_29-Window.png
 
 https://dotnettrickscloud.blob.core.windows.net/img/oops/types-of-inheritance-c-sharp.png
+
+https://static.javatpoint.com/images/core/interfacerelation.jpg
+
+https://media.geeksforgeeks.org/wp-content/cdn-uploads/Access-Modifiers-in-Java.png
