@@ -8,7 +8,7 @@
 // Error: Error refers to an illegal operation performed by the user which results in the abnormal working of the program.
 // Error vs Exception
 
-// When you have multiple catch statements, it it important to place exception subclasses
+// When you have multiple catch statements, it is important to place exception subclasses
 // before any of their superclasses.
 
 public class Class16 {
