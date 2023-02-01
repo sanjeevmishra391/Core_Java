@@ -8,6 +8,8 @@ https://www.guru99.com/install-eclipse-java.html
 
 Java The Complete Reference, Eighth Edition
 
+https://www.programiz.com/java-programming
+
 ## About Java:
 
 - simple, high level, robust, object-oriented, multithreaded, platform independent and secure programming language.
