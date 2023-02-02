@@ -19,6 +19,54 @@ public class Class18_2 {
         list.add(5);
 
         System.out.println(list);
+
+        list.addFirst(19); // adds element in the first position(0th index)
+
+        System.out.println("After adding element in the beginning: " + list);
+
+        list.addLast(70); // adds element at the end of linkedlist
+
+        System.out.println("After adding element at the last: " + list);
+
+        System.out.println("The first element : " + list.getFirst());
+
+        System.out.println("The last element : " + list.getLast());
+
+        list.offer(33); // it adds element to the last of list.
+
+        System.out.println("After using offer method: " + list);
+
+        boolean res = list.offerFirst(200);
+        System.out.println("Offer first returned value: " + res);
+
+        System.out.println("After using offer first method: " + list);
+
+        int p = list.peek(); // retrieves the first data and does not removes the data
+
+        System.out.println("Peek result: " + p);
+
+        p = list.poll(); // retrieves the first data and removes that data from list.
+
+        System.out.println("Poll result: " + p);
+
+        System.out.println("List after polling: " + list);
+
+        p = list.peek();
+
+        System.out.println("Peek result: " + p);
+
+        int pop = list.pop();
+
+        System.out.println("Popped data: " + pop);
+
+        System.out.println("List after popping: " + list);
+
+        int r = list.remove();
+
+        System.out.println("Removed data: " + r);
+
+        System.out.println("List after removing: " + list);
+
     }
 
 }
