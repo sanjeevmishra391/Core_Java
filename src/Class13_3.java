@@ -40,6 +40,10 @@ class C extends B {
     void printSomething() {
         System.out.println("Printing something");
     }
+
+    void methodC() {
+        System.out.println("In the class c");
+    }
 }
 
 public class Class13_3 {
@@ -51,5 +55,6 @@ public class Class13_3 {
         a.callMe();
         a.anotherMethod();
         a.printSomething();
+        // a.methodC();
     }
 }
