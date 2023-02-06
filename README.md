@@ -41,6 +41,7 @@ JVM is responsible for executing the java program line by line, hence it is also
 - You can not use super keyword in the static method/block.
 - this() can be used to invoke current class constructor.
 - Precedence Table: https://www.programiz.com/java-programming/operator-precedence#:~:text=Associativity%20of%20Operators%20in%20Java,is%20assigned%20to%20variable%20b%20
+- Difference between Scanner and BufferedReader: https://www.geeksforgeeks.org/difference-between-scanner-and-bufferreader-class-in-java/
 
 ## Run Java program using ternminal
 
